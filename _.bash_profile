@@ -6,19 +6,19 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-#alias ~="cd ~" # `cd` is probably faster to type though
 
 # Shortcuts
 alias htd="cd /Applications/MAMP/htdocs"
 alias dropbox="cd ~/Dropbox"
 alias desktop="cd ~/Desktop"
 alias vhosts="cd ~/vhosts"
-#alias g="git"
-#alias s="subl ."
 alias o="open"
 alias l="ls -a -G"
 alias ll="ls -la"
 alias cl="clear"
+
+#Git
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
