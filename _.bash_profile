@@ -1,6 +1,3 @@
-# WP-CLI
-export PATH=/Users/pascal/.wp-cli/bin:$PATH
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
